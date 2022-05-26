@@ -33,6 +33,7 @@ import AddImages from "./../src/pages/addImages/AddImages";
 import CoursePage from "./pages/CoursePage/CoursePage";
 import CoursePageParent from "./pages/CoursePage/CoursePageParent";
 import ModulePage from "./pages/ModulePage";
+import IndexPage from "./models/NewPage/IndexPage";
 
 function App() {
   return (
@@ -110,17 +111,15 @@ function App() {
               </PrivateRoute>
             }
           ></Route> */}
-          <Route
+          {/* <Route
             isAuth={true}
             path="/coursemodule"
             element={
               <PrivateRoute>
-                {/* <CourseModule /> */}
                 <ModulePage />
-                {/* <CoursePageParent /> */}
               </PrivateRoute>
             }
-          ></Route>
+          ></Route> */}
 
           <Route
             isAuth={true}
@@ -128,6 +127,15 @@ function App() {
             element={
               <PrivateRoute>
                 <Course />
+              </PrivateRoute>
+            }
+          ></Route>
+          <Route
+            isAuth={true}
+            path="/coursemodule"
+            element={
+              <PrivateRoute>
+                <IndexPage />
               </PrivateRoute>
             }
           ></Route>
