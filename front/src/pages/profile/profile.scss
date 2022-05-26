@@ -1,0 +1,42 @@
+.profile-login-layout{
+    width: 100%;
+    max-width: 500px;
+    padding:20px 30px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.18);
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100,0.18);
+    border: none;
+    background-color: #fff;
+    margin: 50px auto;
+    h2{
+      font-size: 28px;
+      margin-bottom: 45px;
+    }
+    .profilelogin{
+      input{
+        border-radius: 5px;
+        border: 2px solid #dddfe2;
+        outline: none;
+        color: #1d2129;
+        margin: 0px 0px 15px;
+        padding: 0.5rem 0.75rem;
+        width: 100%;
+        font-size: 1rem;
+      }
+      button{
+        background: #fc1f1f;
+        border:1px solid #fc1f1f;
+        box-shadow: none;
+        color: #fff;
+        font-size: 18px;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        border-radius: 8px;
+        outline: none;
+        cursor: pointer;
+        max-width: 225px;
+        width: 100%;
+      }
+    }
+}
